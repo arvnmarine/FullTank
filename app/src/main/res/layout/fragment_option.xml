@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="Zip Code"
+            android:textSize="50dp"
+            android:textAlignment="center"/>
+
+        <EditText
+            android:id="@+id/zipcodeUserInput"
+            android:layout_width="match_parent"
+            android:layout_height="104dp"
+            android:ems="10"
+            android:inputType="number"
+            android:hint="Using my current location"
+            android:textSize="30dp"
+            android:textAlignment="center"
+            android:maxLength="5"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/btnZipcode"
+                android:layout_width="wrap_content"
+                android:layout_height="104dp"
+                android:text="Use Zipcode"
+                android:textSize="20dp"/>
+
+            <Button
+                android:id="@+id/btnUserGPSLocation"
+                android:layout_width="wrap_content"
+                android:layout_height="104dp"
+                android:text="Use current location"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout >
