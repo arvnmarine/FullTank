@@ -16,7 +16,7 @@ import androidx.core.content.PermissionChecker;
 import static androidx.core.content.ContextCompat.getSystemService;
 
 public class Constants {
-    public static String API_Key = "AIzaSyBJMYY8xFfaRSfuTjdaPyq-NjjQnVuUipE";
+    public static String API_Key = "API key goes here";
     public static String TAG = "MyTag";
 
 
